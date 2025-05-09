@@ -3,7 +3,7 @@
 saved_username = "admin"
 saved_password = "12345"
 
-print("=== Sistem Login Sederhana By Linnda===")
+print("=== Sistem Login Sederhana By Linnda dan winda===")
 username = input("Username: ")
 password = input("Password: ")
 
