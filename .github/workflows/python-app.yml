@@ -1,7 +1,9 @@
 name: Python CI
+
 on: [push, pull_request]
+
 jobs:
-  build:
+ run-login:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
