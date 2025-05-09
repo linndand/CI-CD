@@ -1,7 +1,5 @@
-name: login.py
-
+name: CI Pipeline
 on: [push, pull_request]
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,4 +9,4 @@ jobs:
         with:
           python-version: '3.x'
       - name: Run the script
-        run: login.py 
+        run:  python login.py 
